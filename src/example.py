@@ -1,5 +1,5 @@
 import pandas as pd
-from hash_anonimizator import hash_anonimizator
+from dataframe_hasher import dataframe_hasher
 
 df = pd.read_csv('./data/cadunico.csv', sep=';', encoding='latin-1')
-df = hash_anonimizator(df, 'CPF')
+df = dataframe_hasher(df, 'CPF')

@@ -1,7 +1,7 @@
 import pandas as pd
 from hashlib import sha256
 
-def hash_anonimizator(df:pd.DataFrame, column_name:str):
+def dataframe_hasher(df:pd.DataFrame, column_name:str):
     '''
     Returns the SHA256-hashed string of the original DataFrame column(s).
 
